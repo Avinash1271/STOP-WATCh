@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>stopWatch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="showTime">
+        <div class="digit" id="min">00</div><span id="span">:</span>&nbsp;
+        <div class="digit" id="sec">00</div><span id="span">:</span>&nbsp;
+        <div class="digit" id="ms">00</div>
+      </div>
+      <div class="inner-div">
+        <div class="startdiv">
+        <button class="startbtn" onclick="startTimer()">Start</button>
+        </div>
+        <div class="resetdiv">
+        <button class="resetbtn" onclick="resetTimer()">Reset</button>
+        </div>
+        <div class="stopdiv">
+        <button class="stopbtn" onclick="stopTimer()">Stop</button>
+        </div>
+        <div class="lapdiv">
+        <button class="lapbtn" onclick="addToDom()">Lap</button>
+        </div>
+      </div>
+      <div id="storeTime">
+        <!-- <div id="lapList">
+          <span id="number">Lap 1</span>
+          <span id="time">00:01:48</span>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
