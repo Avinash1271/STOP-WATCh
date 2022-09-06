@@ -1,0 +1,118 @@
+body{
+  background-color: #E59F6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: black;
+  align-items: center;
+  height: 550px;
+  width: 550px;
+}
+#showTime{
+  display: flex;
+  justify-content: center;
+  color: #fd7e14;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 20px;
+}
+#span{
+  color: #fd7e14;
+  font-size: 70px;
+  font-family: sans-serif;
+}
+.digit{
+  width: 100px;
+}
+.inner-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4% 15% 3% 15%;
+}
+.startbtn{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: rgb(154, 233, 36);
+  background-color: rgb(91, 146, 9);
+  cursor: pointer;
+}
+.startbtn:hover{
+  transition: 1s all ease-in-out;
+  background-color: rgb(78, 126, 7);
+}
+.startdiv{
+  border: 2px solid rgb(91, 146, 9);
+  border-radius: 50%;
+}
+.resetbtn{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6c757d;
+  cursor: pointer;
+}
+.resetbtn:hover{
+  transition: 1s all ease-in-out;
+  background-color: #575e64;
+}
+.resetdiv{
+  border: 2px solid #6c757d;
+  border-radius: 50%;
+}
+.stopbtn{
+  height: 80px;
+  width: 80px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #81323a;
+  color: #dc3545;
+  cursor: pointer;
+
+}
+.stopbtn:hover{
+  transition: 1s all ease-in-out;
+  background-color: #6e2d34;
+}
+.stopdiv{
+  border: 2px solid #81323a;
+  border-radius: 50%;
+}
+.lapbtn{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: rgb(36, 220, 233);
+  background-color: rgb(28, 143, 151);
+  cursor: pointer;
+}
+.lapbtn:hover{
+  transition: 1s all ease-in-out;
+  background-color: rgb(27, 111, 117);
+}
+.lapdiv{
+  border: 2px solid rgb(28, 143, 151);
+  border-radius: 50%;
+}
+#storeTime{
+  margin: 20px 90px 0 90px;
+}
+#lapList{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+#number,#time{
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
